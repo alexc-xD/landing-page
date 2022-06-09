@@ -21,12 +21,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    padding: 10px 20px;
 }
 .logo {
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;
     color: white;
-    padding: 0 20px;
 }
 
 a {
@@ -42,7 +42,3 @@ a {
     padding: 0;
     gap: 16px;
   }
-
-.links {
-    margin-right: 20px;
-}
