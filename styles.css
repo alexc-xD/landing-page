@@ -28,3 +28,21 @@ body {
     color: white;
     padding: 0 20px;
 }
+
+a {
+    /* this removes the line under our links */
+    text-decoration: none;
+    color: #E5E7EB;
+  }
+  
+  ul {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+  }
+
+.links {
+    margin-right: 20px;
+}
