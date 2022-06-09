@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2937;
+    font-family: sans-serif;
+    min-height: 100vh;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    padding: 0 20px;
+}
