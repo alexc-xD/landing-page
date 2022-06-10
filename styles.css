@@ -18,9 +18,17 @@ img {
     color: #F9FAF8;
 }
 
+.title.white {
+    color: #1F2937;
+}
+
 .text {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.text.white {
+    color: #1F2937;
 }
 
 .header {
@@ -57,15 +65,15 @@ ul {
     align-items: center;
 }
 
+.container.white {
+    background-color: white;
+    flex-direction: column;
+}
+
 .pitch {
     display: flex;
     flex-direction: column;
     gap: 10px;
-}
-
-.white {
-    background-color: white;
-    flex-direction: column;
 }
 
 button {
