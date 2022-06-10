@@ -110,9 +110,30 @@ button {
 }
 
 .footer {
-display: flex;
-justify-content: center;
-align-items: center;
-color: #F9FAF8;
-padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    padding: 30px;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 100px;
+    align-items: center;
+    background-color: #E5E7EB;
+}
+
+.text-quote {
+    display: flex;
+    max-width: 600px;
+    font-style: italic;
+    color: #1F2937;
+    font-size: 36px;
+}
+
+.title-quote {
+    font-weight: bold;
+    font-size: 24px;
 }
