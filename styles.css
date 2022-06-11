@@ -98,6 +98,7 @@ button {
     background-color: #3882F6;
     padding: 40px 80px;
     gap: 90px;
+    border-radius: 25px;
 }
 
 #call-button {
@@ -136,4 +137,15 @@ button {
 .title-quote {
     font-weight: bold;
     font-size: 24px;
+}
+
+.container.info {
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+}
+.player > img {
+    /* only selects img in player containers to give border to */
+    border: 3px solid #3882F6;
+    border-radius: 25px;
 }
