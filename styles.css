@@ -146,7 +146,7 @@ button {
     gap: 20px;
     align-items: flex-start;
     text-align: center;
-    max-width: 200px;
+    max-width: 900px;
 }
 .player > img {
     /* only selects img in player containers to give border to */
