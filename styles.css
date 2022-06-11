@@ -143,9 +143,16 @@ button {
     display: flex;
     gap: 20px;
     align-items: flex-start;
+    text-align: center;
 }
 .player > img {
     /* only selects img in player containers to give border to */
     border: 3px solid #3882F6;
     border-radius: 25px;
+}
+.bold {
+    font-weight: bold;
+}
+.it {
+    font-style: italic;
 }
