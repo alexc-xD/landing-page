@@ -34,8 +34,9 @@ img {
 .header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 10px 20px;
+    flex: 1 0 auto;
 }
 
 .logo {
